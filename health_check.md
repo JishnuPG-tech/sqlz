@@ -91,3 +91,13 @@ This file tracking automated project check-ins and performance verification tele
   - Coverage index: `98.17%`
   - Checkpoint timestamp: `2026-08-15 00:40:39 UTC`
 
+
+## [2026-08-16] - Automated Integration Check
+- **Task Category:** Performance
+- **Verification:** Recorded query execution latency percentiles (p50/p95/p99) for the core SELECT and JOIN workloads against the PostgreSQL 16 test instance, noting a 12% p99 regression correlated with the new index hint path.
+- **Telemetry Profile:**
+  - Execution time: `12ms`
+  - Memory diff: `-2.13 MB`
+  - Coverage index: `98.73%`
+  - Checkpoint timestamp: `2026-08-16 00:40:49 UTC`
+
